@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textview.MaterialTextView
+    <TextView
         android:id="@+id/text_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <com.google.android.material.textview.MaterialTextView
+    <TextView
         android:id="@+id/text_2"
         style="@style/TextView2Style"
         android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_1" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/button_1"
         style="@style/ButtonFABStyle"
         android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
 
 
     <!-- Este botón se queda con el estilo por defecto -->
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/button_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

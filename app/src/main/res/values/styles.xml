@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- style para el editText -->
+    <style name="EditTextStyle" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textSize">40sp</item>
+        <item name = "android:gravity">end</item>
+    </style>
+
+
+    <!-- style para todos los textView -->
+    <style name="TextViewsStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+
+    <!-- style para el textView 2 -->
+    <style name="TextView2Style" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">@color/orange</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <!-- style para el botón 1 -->
+    <style name="ButtonFABStyle" parent="Widget.Material3.FloatingActionButton.Secondary">
+        <item name="android:backgroundTint">@color/yellow</item>
+    </style>
+
+    <!-- El botón 2 tiene el style por defecto de la aplicación -->
+</resources>
