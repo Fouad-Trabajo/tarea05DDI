@@ -3,6 +3,6 @@
     <string name="text_1">Texto1</string>
     <string name="text_2">Texto2</string>
     <string name="default_hint">Introduce texto</string>
-    <string name="button_1">Botón 1</string>
-    <string name="button_2">Botón 2</string>
+    <string name="button_1">Muestra el texto</string>
+    <string name="button_2">Toast</string>
 </resources>
