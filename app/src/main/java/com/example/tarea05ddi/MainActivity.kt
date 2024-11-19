@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         buttons()
+        bottomNavigation()
     }
 
     private fun buttons() {
@@ -29,4 +30,26 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Se ha pulsado el botón 2", Toast.LENGTH_LONG).show()
         }
     }
+
+    private fun bottomNavigation() {
+        binding.bottomNavigation.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.home -> {
+                    Toast.makeText(this, "Se ha pulsado el item 1", Toast.LENGTH_LONG).show()
+                    true
+                }
+
+                R.id.settings -> {
+                    Toast.makeText(this, "Se ha pulsado el item 2", Toast.LENGTH_LONG).show()
+                    true
+                }
+
+                else -> {
+                    false
+                }
+            }
+
+        }
+    }
+
 }
